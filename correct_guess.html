@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="correct_guess.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <script src="correct_guess.js"></script>
+
+        <title>Guess Game</title>
+    </head>
+    <body>
+        <h1>Welcome to Guess Number Game</h1>
+        <div>
+            <div class="up">
+                <input type="text" placeholder="" id="myText">
+                <button onclick="myFunction()">Check</button>
+                <button onclick="reset()">Rest</button>
+
+                
+            </div>
+
+
+
+            <div id="id01" class="w3-modal">
+                    <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                        <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                            <header class="w3-container w3-blue"> 
+                             <span onclick="document.getElementById('id01').style.display='none'" 
+                             class="w3-button w3-blue w3-xlarge w3-display-topright">&times;</span>
+                             <h2>Guess number Game</h2>
+                            </header>
+                        <h2>You are winer</h2>
+            
+                    </div>
+            </div>
+   
+       </div>
+    </body>
+</html>
