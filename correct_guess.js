@@ -46,7 +46,7 @@
 var num;
 var chanceCount = 1;
 
-
+console.log(chanceCount)
 function generateRandom(){
     var min = 1;
     var max = 50
